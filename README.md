@@ -32,6 +32,7 @@ This project analyzes e-commerce sales data using **Python**, **SQL**, and **Pow
 
 ## 📸 Dashboard Preview
 ![Dashboard Screenshot](Screenshot%20(246).png) 
+![Dashboard Screenshot](Screenshot%20(247).png) 
 This contains the view of my work
 
 
