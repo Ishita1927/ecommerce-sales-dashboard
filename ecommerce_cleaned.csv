@@ -1,0 +1,501 @@
+order_id,customer_id,customer_name,city,age,gender,product_id,product_name,category,price,quantity,order_date,status,revenue,month,month_name,quarter,year,is_delivered
+1,29,Deepika Kapoor,Bangalore,52,Male,6,Running Shoes,Footwear,1599,4,2024-01-26,Pending,6396,1,January,1,2024,No
+2,32,Kavya Verma,Delhi,23,Female,4,Mechanical Keyboard,Electronics,2499,4,2024-03-09,Cancelled,9996,3,March,1,2024,No
+3,86,Rohit Rao,Delhi,42,Male,17,Face Moisturiser,Beauty,449,3,2024-08-14,Delivered,1347,8,August,3,2024,Yes
+4,93,Ishita Kumar,Hyderabad,47,Female,17,Face Moisturiser,Beauty,449,4,2024-10-07,Cancelled,1796,10,October,4,2024,No
+5,21,Varun Khanna,Hyderabad,32,Male,16,Water Bottle 1L,Sports,299,4,2024-05-12,Delivered,1196,5,May,2,2024,Yes
+6,82,Ishaan Khanna,Hyderabad,35,Male,9,Sports Sandals,Footwear,599,4,2024-11-16,Delivered,2396,11,November,4,2024,Yes
+7,36,Priya Mehta,Jaipur,25,Male,15,Resistance Bands Set,Sports,349,1,2024-12-31,Delivered,349,12,December,4,2024,Yes
+8,31,Priya Verma,Chennai,33,Male,9,Sports Sandals,Footwear,599,3,2024-06-12,Pending,1797,6,June,2,2024,No
+9,11,Ananya Bhat,Pune,36,Male,5,Webcam HD,Electronics,1899,2,2024-04-28,Returned,3798,4,April,2,2024,No
+10,89,Aryan Singh,Chennai,50,Female,5,Webcam HD,Electronics,1899,2,2024-02-02,Returned,3798,2,February,1,2024,No
+11,53,Manish Gandhi,Mumbai,55,Male,11,Denim Jeans,Clothing,899,4,2024-07-31,Delivered,3596,7,July,3,2024,Yes
+12,27,Sanjay Agarwal,Chennai,50,Male,14,Yoga Mat,Sports,599,4,2024-10-26,Delivered,2396,10,October,4,2024,Yes
+13,98,Shreya Rao,Delhi,47,Female,19,Shampoo 400ml,Beauty,199,4,2024-09-01,Delivered,796,9,September,3,2024,Yes
+14,46,Ayesha Kumar,Bangalore,35,Female,10,Cotton T-Shirt,Clothing,399,4,2024-08-02,Pending,1596,8,August,3,2024,No
+15,96,Anjali Tiwari,Pune,37,Male,18,Sunscreen SPF50,Beauty,299,2,2024-09-06,Delivered,598,9,September,3,2024,Yes
+16,35,Ishita Yadav,Pune,37,Female,14,Yoga Mat,Sports,599,4,2024-01-15,Returned,2396,1,January,1,2024,No
+17,44,Arjun Bhat,Kolkata,39,Male,13,Winter Jacket,Clothing,1999,2,2024-08-27,Delivered,3998,8,August,3,2024,Yes
+18,80,Shreya Gupta,Pune,47,Female,18,Sunscreen SPF50,Beauty,299,1,2024-07-20,Delivered,299,7,July,3,2024,Yes
+19,73,Sunita Bhat,Hyderabad,55,Male,1,Wireless Earbuds,Electronics,1299,1,2024-11-25,Returned,1299,11,November,4,2024,No
+20,18,Lakshmi Chawla,Pune,54,Female,15,Resistance Bands Set,Sports,349,2,2024-01-26,Delivered,698,1,January,1,2024,Yes
+21,49,Divya Kumar,Jaipur,48,Male,11,Denim Jeans,Clothing,899,2,2024-08-20,Delivered,1798,8,August,3,2024,Yes
+22,44,Arjun Bhat,Kolkata,39,Male,13,Winter Jacket,Clothing,1999,3,2024-08-03,Delivered,5997,8,August,3,2024,Yes
+23,11,Ananya Bhat,Pune,36,Male,16,Water Bottle 1L,Sports,299,1,2024-10-03,Delivered,299,10,October,4,2024,Yes
+24,45,Kavya Gandhi,Pune,52,Female,8,Formal Shoes,Footwear,1299,1,2024-11-29,Delivered,1299,11,November,4,2024,Yes
+25,97,Ishaan Das,Mumbai,20,Male,1,Wireless Earbuds,Electronics,1299,2,2024-04-12,Delivered,2598,4,April,2,2024,Yes
+26,80,Shreya Gupta,Pune,47,Female,5,Webcam HD,Electronics,1899,2,2024-03-05,Cancelled,3798,3,March,1,2024,No
+27,86,Rohit Rao,Delhi,42,Male,4,Mechanical Keyboard,Electronics,2499,2,2024-08-26,Delivered,4998,8,August,3,2024,Yes
+28,99,Tanvi Gandhi,Kolkata,49,Female,12,Ethnic Kurta,Clothing,699,2,2024-11-06,Delivered,1398,11,November,4,2024,Yes
+29,96,Anjali Tiwari,Pune,37,Male,4,Mechanical Keyboard,Electronics,2499,2,2024-06-08,Delivered,4998,6,June,2,2024,Yes
+30,75,Akash Verma,Hyderabad,31,Male,1,Wireless Earbuds,Electronics,1299,3,2024-10-21,Returned,3897,10,October,4,2024,No
+31,51,Aarav Khanna,Chennai,47,Female,7,Casual Sneakers,Footwear,999,1,2024-10-30,Delivered,999,10,October,4,2024,Yes
+32,14,Pooja Gandhi,Chennai,22,Male,10,Cotton T-Shirt,Clothing,399,1,2024-10-16,Delivered,399,10,October,4,2024,Yes
+33,45,Kavya Gandhi,Pune,52,Female,18,Sunscreen SPF50,Beauty,299,4,2024-12-04,Delivered,1196,12,December,4,2024,Yes
+34,9,Vikram Iyer,Mumbai,47,Male,17,Face Moisturiser,Beauty,449,3,2024-01-07,Returned,1347,1,January,1,2024,No
+35,63,Ayesha Yadav,Hyderabad,22,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-07-04,Cancelled,9996,7,July,3,2024,No
+36,91,Ishaan Kumar,Kolkata,29,Female,5,Webcam HD,Electronics,1899,4,2024-03-31,Pending,7596,3,March,1,2024,No
+37,84,Aditya Chopra,Chennai,29,Female,9,Sports Sandals,Footwear,599,4,2024-08-26,Returned,2396,8,August,3,2024,No
+38,94,Sakshi Sharma,Pune,50,Female,19,Shampoo 400ml,Beauty,199,3,2024-06-14,Delivered,597,6,June,2,2024,Yes
+39,12,Karan Trivedi,Delhi,42,Female,9,Sports Sandals,Footwear,599,4,2024-05-04,Cancelled,2396,5,May,2,2024,No
+40,73,Sunita Bhat,Hyderabad,55,Male,20,Notebook Set,Stationery,149,4,2024-06-21,Delivered,596,6,June,2,2024,Yes
+41,64,Priya Jain,Bangalore,46,Female,11,Denim Jeans,Clothing,899,2,2024-09-06,Delivered,1798,9,September,3,2024,Yes
+42,46,Ayesha Kumar,Bangalore,35,Female,9,Sports Sandals,Footwear,599,3,2024-05-23,Delivered,1797,5,May,2,2024,Yes
+43,90,Ravi Joshi,Kolkata,36,Male,9,Sports Sandals,Footwear,599,1,2024-09-21,Delivered,599,9,September,3,2024,Yes
+44,11,Ananya Bhat,Pune,36,Male,8,Formal Shoes,Footwear,1299,4,2024-09-07,Pending,5196,9,September,3,2024,No
+45,98,Shreya Rao,Delhi,47,Female,8,Formal Shoes,Footwear,1299,4,2024-11-26,Cancelled,5196,11,November,4,2024,No
+46,58,Vishal Chawla,Kolkata,55,Female,1,Wireless Earbuds,Electronics,1299,1,2024-05-30,Delivered,1299,5,May,2,2024,Yes
+47,52,Rohit Shah,Jaipur,27,Male,8,Formal Shoes,Footwear,1299,3,2024-12-05,Delivered,3897,12,December,4,2024,Yes
+48,48,Amit Reddy,Mumbai,23,Male,16,Water Bottle 1L,Sports,299,3,2024-08-05,Pending,897,8,August,3,2024,No
+49,43,Pooja Kumar,Kolkata,47,Male,12,Ethnic Kurta,Clothing,699,4,2024-05-18,Delivered,2796,5,May,2,2024,Yes
+50,33,Ananya Sinha,Bangalore,26,Female,8,Formal Shoes,Footwear,1299,1,2024-04-08,Delivered,1299,4,April,2,2024,Yes
+51,16,Rahul Iyer,Pune,38,Male,18,Sunscreen SPF50,Beauty,299,2,2024-04-08,Delivered,598,4,April,2,2024,Yes
+52,95,Divya Sharma,Delhi,36,Female,16,Water Bottle 1L,Sports,299,3,2024-10-28,Pending,897,10,October,4,2024,No
+53,77,Divya Srivastava,Bangalore,44,Male,10,Cotton T-Shirt,Clothing,399,1,2024-04-09,Delivered,399,4,April,2,2024,Yes
+54,30,Vikram Joshi,Jaipur,19,Male,12,Ethnic Kurta,Clothing,699,2,2024-06-03,Delivered,1398,6,June,2,2024,Yes
+55,91,Ishaan Kumar,Kolkata,29,Female,18,Sunscreen SPF50,Beauty,299,2,2024-05-20,Delivered,598,5,May,2,2024,Yes
+56,7,Lakshmi Das,Pune,39,Male,18,Sunscreen SPF50,Beauty,299,3,2024-12-23,Delivered,897,12,December,4,2024,Yes
+57,82,Ishaan Khanna,Hyderabad,35,Male,16,Water Bottle 1L,Sports,299,1,2024-01-07,Delivered,299,1,January,1,2024,Yes
+58,37,Karan Chawla,Hyderabad,19,Male,16,Water Bottle 1L,Sports,299,4,2024-08-13,Delivered,1196,8,August,3,2024,Yes
+59,24,Rahul Khanna,Jaipur,51,Female,2,USB-C Hub,Electronics,899,3,2024-09-01,Delivered,2697,9,September,3,2024,Yes
+60,9,Vikram Iyer,Mumbai,47,Male,13,Winter Jacket,Clothing,1999,4,2024-02-07,Delivered,7996,2,February,1,2024,Yes
+61,81,Meera Tiwari,Pune,32,Male,2,USB-C Hub,Electronics,899,2,2024-03-17,Delivered,1798,3,March,1,2024,Yes
+62,39,Akash Trivedi,Hyderabad,22,Male,3,Laptop Stand,Electronics,699,2,2024-03-01,Pending,1398,3,March,1,2024,No
+63,98,Shreya Rao,Delhi,47,Female,14,Yoga Mat,Sports,599,2,2024-09-24,Returned,1198,9,September,3,2024,No
+64,58,Vishal Chawla,Kolkata,55,Female,15,Resistance Bands Set,Sports,349,3,2024-10-28,Returned,1047,10,October,4,2024,No
+65,40,Lakshmi Sharma,Jaipur,31,Male,19,Shampoo 400ml,Beauty,199,1,2024-11-08,Delivered,199,11,November,4,2024,Yes
+66,98,Shreya Rao,Delhi,47,Female,7,Casual Sneakers,Footwear,999,2,2024-05-15,Delivered,1998,5,May,2,2024,Yes
+67,21,Varun Khanna,Hyderabad,32,Male,8,Formal Shoes,Footwear,1299,2,2024-10-09,Delivered,2598,10,October,4,2024,Yes
+68,21,Varun Khanna,Hyderabad,32,Male,1,Wireless Earbuds,Electronics,1299,4,2024-08-18,Delivered,5196,8,August,3,2024,Yes
+69,61,Ananya Agarwal,Jaipur,54,Male,10,Cotton T-Shirt,Clothing,399,1,2024-04-28,Delivered,399,4,April,2,2024,Yes
+70,91,Ishaan Kumar,Kolkata,29,Female,10,Cotton T-Shirt,Clothing,399,4,2024-02-06,Delivered,1596,2,February,1,2024,Yes
+71,34,Suresh Desai,Chennai,51,Female,19,Shampoo 400ml,Beauty,199,2,2024-08-05,Delivered,398,8,August,3,2024,Yes
+72,70,Lakshmi Bhat,Mumbai,39,Male,8,Formal Shoes,Footwear,1299,2,2024-05-16,Delivered,2598,5,May,2,2024,Yes
+73,10,Rahul Chawla,Chennai,41,Male,2,USB-C Hub,Electronics,899,2,2024-06-06,Delivered,1798,6,June,2,2024,Yes
+74,96,Anjali Tiwari,Pune,37,Male,19,Shampoo 400ml,Beauty,199,3,2024-08-12,Delivered,597,8,August,3,2024,Yes
+75,60,Raj Das,Chennai,47,Female,10,Cotton T-Shirt,Clothing,399,4,2024-05-19,Pending,1596,5,May,2,2024,No
+76,70,Lakshmi Bhat,Mumbai,39,Male,16,Water Bottle 1L,Sports,299,4,2024-02-11,Delivered,1196,2,February,1,2024,Yes
+77,6,Aarav Sinha,Bangalore,45,Female,14,Yoga Mat,Sports,599,3,2024-11-05,Delivered,1797,11,November,4,2024,Yes
+78,4,Ishita Gupta,Mumbai,53,Male,3,Laptop Stand,Electronics,699,2,2024-12-11,Delivered,1398,12,December,4,2024,Yes
+79,76,Arjun Kapoor,Kolkata,27,Male,1,Wireless Earbuds,Electronics,1299,3,2024-10-22,Delivered,3897,10,October,4,2024,Yes
+80,98,Shreya Rao,Delhi,47,Female,6,Running Shoes,Footwear,1599,4,2024-09-22,Cancelled,6396,9,September,3,2024,No
+81,36,Priya Mehta,Jaipur,25,Male,6,Running Shoes,Footwear,1599,4,2024-11-21,Cancelled,6396,11,November,4,2024,No
+82,12,Karan Trivedi,Delhi,42,Female,16,Water Bottle 1L,Sports,299,3,2024-07-28,Delivered,897,7,July,3,2024,Yes
+83,42,Ravi Gandhi,Delhi,24,Female,4,Mechanical Keyboard,Electronics,2499,2,2024-06-17,Returned,4998,6,June,2,2024,No
+84,89,Aryan Singh,Chennai,50,Female,16,Water Bottle 1L,Sports,299,3,2024-12-05,Returned,897,12,December,4,2024,No
+85,98,Shreya Rao,Delhi,47,Female,18,Sunscreen SPF50,Beauty,299,1,2024-08-20,Delivered,299,8,August,3,2024,Yes
+86,41,Tanvi Pillai,Jaipur,33,Female,9,Sports Sandals,Footwear,599,3,2024-02-29,Returned,1797,2,February,1,2024,No
+87,66,Arjun Verma,Bangalore,34,Male,1,Wireless Earbuds,Electronics,1299,4,2024-07-30,Delivered,5196,7,July,3,2024,Yes
+88,25,Suresh Trivedi,Mumbai,25,Female,17,Face Moisturiser,Beauty,449,3,2024-11-14,Cancelled,1347,11,November,4,2024,No
+89,81,Meera Tiwari,Pune,32,Male,15,Resistance Bands Set,Sports,349,1,2024-04-14,Delivered,349,4,April,2,2024,Yes
+90,71,Kunal Desai,Jaipur,53,Female,5,Webcam HD,Electronics,1899,3,2024-08-12,Cancelled,5697,8,August,3,2024,No
+91,16,Rahul Iyer,Pune,38,Male,1,Wireless Earbuds,Electronics,1299,2,2024-12-29,Delivered,2598,12,December,4,2024,Yes
+92,40,Lakshmi Sharma,Jaipur,31,Male,18,Sunscreen SPF50,Beauty,299,1,2024-10-09,Returned,299,10,October,4,2024,No
+93,12,Karan Trivedi,Delhi,42,Female,8,Formal Shoes,Footwear,1299,1,2024-08-24,Delivered,1299,8,August,3,2024,Yes
+94,83,Lakshmi Kapoor,Kolkata,52,Female,5,Webcam HD,Electronics,1899,4,2024-05-29,Pending,7596,5,May,2,2024,No
+95,91,Ishaan Kumar,Kolkata,29,Female,9,Sports Sandals,Footwear,599,4,2024-09-04,Cancelled,2396,9,September,3,2024,No
+96,32,Kavya Verma,Delhi,23,Female,15,Resistance Bands Set,Sports,349,2,2024-07-15,Delivered,698,7,July,3,2024,Yes
+97,77,Divya Srivastava,Bangalore,44,Male,17,Face Moisturiser,Beauty,449,2,2024-02-05,Delivered,898,2,February,1,2024,Yes
+98,99,Tanvi Gandhi,Kolkata,49,Female,14,Yoga Mat,Sports,599,3,2024-09-16,Delivered,1797,9,September,3,2024,Yes
+99,1,Aryan Agarwal,Chennai,33,Male,10,Cotton T-Shirt,Clothing,399,3,2024-10-27,Delivered,1197,10,October,4,2024,Yes
+100,85,Akash Chopra,Kolkata,40,Female,16,Water Bottle 1L,Sports,299,2,2024-08-16,Pending,598,8,August,3,2024,No
+101,62,Ananya Patel,Pune,50,Female,12,Ethnic Kurta,Clothing,699,3,2024-10-09,Pending,2097,10,October,4,2024,No
+102,49,Divya Kumar,Jaipur,48,Male,15,Resistance Bands Set,Sports,349,3,2024-04-06,Delivered,1047,4,April,2,2024,Yes
+103,74,Rohit Das,Mumbai,37,Female,13,Winter Jacket,Clothing,1999,2,2024-07-29,Delivered,3998,7,July,3,2024,Yes
+104,41,Tanvi Pillai,Jaipur,33,Female,16,Water Bottle 1L,Sports,299,4,2024-07-16,Delivered,1196,7,July,3,2024,Yes
+105,64,Priya Jain,Bangalore,46,Female,2,USB-C Hub,Electronics,899,2,2024-09-14,Delivered,1798,9,September,3,2024,Yes
+106,43,Pooja Kumar,Kolkata,47,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-02-21,Pending,9996,2,February,1,2024,No
+107,59,Kunal Gandhi,Hyderabad,33,Female,1,Wireless Earbuds,Electronics,1299,2,2024-07-28,Delivered,2598,7,July,3,2024,Yes
+108,10,Rahul Chawla,Chennai,41,Male,16,Water Bottle 1L,Sports,299,3,2024-06-22,Delivered,897,6,June,2,2024,Yes
+109,89,Aryan Singh,Chennai,50,Female,13,Winter Jacket,Clothing,1999,1,2024-06-17,Pending,1999,6,June,2,2024,No
+110,49,Divya Kumar,Jaipur,48,Male,11,Denim Jeans,Clothing,899,4,2024-10-04,Delivered,3596,10,October,4,2024,Yes
+111,80,Shreya Gupta,Pune,47,Female,3,Laptop Stand,Electronics,699,2,2024-11-19,Delivered,1398,11,November,4,2024,Yes
+112,30,Vikram Joshi,Jaipur,19,Male,3,Laptop Stand,Electronics,699,4,2024-02-20,Delivered,2796,2,February,1,2024,Yes
+113,57,Aryan Verma,Pune,55,Male,6,Running Shoes,Footwear,1599,3,2024-01-15,Delivered,4797,1,January,1,2024,Yes
+114,42,Ravi Gandhi,Delhi,24,Female,2,USB-C Hub,Electronics,899,3,2024-07-02,Delivered,2697,7,July,3,2024,Yes
+115,56,Gaurav Chawla,Delhi,33,Female,5,Webcam HD,Electronics,1899,2,2024-09-28,Returned,3798,9,September,3,2024,No
+116,73,Sunita Bhat,Hyderabad,55,Male,6,Running Shoes,Footwear,1599,2,2024-03-30,Delivered,3198,3,March,1,2024,Yes
+117,79,Lakshmi Desai,Delhi,42,Male,13,Winter Jacket,Clothing,1999,2,2024-09-11,Delivered,3998,9,September,3,2024,Yes
+118,19,Ishita Reddy,Jaipur,43,Female,8,Formal Shoes,Footwear,1299,4,2024-11-22,Delivered,5196,11,November,4,2024,Yes
+119,59,Kunal Gandhi,Hyderabad,33,Female,9,Sports Sandals,Footwear,599,1,2024-08-26,Delivered,599,8,August,3,2024,Yes
+120,87,Kunal Bhat,Kolkata,18,Male,18,Sunscreen SPF50,Beauty,299,2,2024-02-07,Cancelled,598,2,February,1,2024,No
+121,45,Kavya Gandhi,Pune,52,Female,19,Shampoo 400ml,Beauty,199,3,2024-11-23,Returned,597,11,November,4,2024,No
+122,89,Aryan Singh,Chennai,50,Female,9,Sports Sandals,Footwear,599,4,2024-06-03,Delivered,2396,6,June,2,2024,Yes
+123,50,Raj Verma,Mumbai,28,Female,16,Water Bottle 1L,Sports,299,1,2024-05-01,Returned,299,5,May,2,2024,No
+124,74,Rohit Das,Mumbai,37,Female,12,Ethnic Kurta,Clothing,699,3,2024-12-24,Delivered,2097,12,December,4,2024,Yes
+125,3,Varun Kumar,Mumbai,19,Male,13,Winter Jacket,Clothing,1999,3,2024-01-05,Delivered,5997,1,January,1,2024,Yes
+126,88,Priya Kumar,Delhi,39,Female,2,USB-C Hub,Electronics,899,4,2024-05-26,Delivered,3596,5,May,2,2024,Yes
+127,78,Gaurav Singh,Hyderabad,44,Male,12,Ethnic Kurta,Clothing,699,2,2024-11-21,Delivered,1398,11,November,4,2024,Yes
+128,80,Shreya Gupta,Pune,47,Female,9,Sports Sandals,Footwear,599,2,2024-11-17,Delivered,1198,11,November,4,2024,Yes
+129,81,Meera Tiwari,Pune,32,Male,2,USB-C Hub,Electronics,899,3,2024-08-13,Delivered,2697,8,August,3,2024,Yes
+130,75,Akash Verma,Hyderabad,31,Male,12,Ethnic Kurta,Clothing,699,2,2024-02-16,Delivered,1398,2,February,1,2024,Yes
+131,42,Ravi Gandhi,Delhi,24,Female,14,Yoga Mat,Sports,599,2,2024-04-12,Delivered,1198,4,April,2,2024,Yes
+132,70,Lakshmi Bhat,Mumbai,39,Male,12,Ethnic Kurta,Clothing,699,3,2024-03-25,Delivered,2097,3,March,1,2024,Yes
+133,62,Ananya Patel,Pune,50,Female,10,Cotton T-Shirt,Clothing,399,3,2024-02-28,Cancelled,1197,2,February,1,2024,No
+134,10,Rahul Chawla,Chennai,41,Male,5,Webcam HD,Electronics,1899,2,2024-12-12,Returned,3798,12,December,4,2024,No
+135,72,Suresh Agarwal,Delhi,22,Male,12,Ethnic Kurta,Clothing,699,1,2024-07-21,Delivered,699,7,July,3,2024,Yes
+136,34,Suresh Desai,Chennai,51,Female,18,Sunscreen SPF50,Beauty,299,1,2024-08-20,Delivered,299,8,August,3,2024,Yes
+137,87,Kunal Bhat,Kolkata,18,Male,9,Sports Sandals,Footwear,599,4,2024-11-22,Delivered,2396,11,November,4,2024,Yes
+138,14,Pooja Gandhi,Chennai,22,Male,8,Formal Shoes,Footwear,1299,4,2024-01-13,Delivered,5196,1,January,1,2024,Yes
+139,72,Suresh Agarwal,Delhi,22,Male,11,Denim Jeans,Clothing,899,2,2024-11-27,Delivered,1798,11,November,4,2024,Yes
+140,82,Ishaan Khanna,Hyderabad,35,Male,15,Resistance Bands Set,Sports,349,3,2024-11-28,Returned,1047,11,November,4,2024,No
+141,15,Sunita Singh,Pune,28,Female,5,Webcam HD,Electronics,1899,1,2024-01-20,Delivered,1899,1,January,1,2024,Yes
+142,64,Priya Jain,Bangalore,46,Female,4,Mechanical Keyboard,Electronics,2499,1,2024-04-30,Pending,2499,4,April,2,2024,No
+143,18,Lakshmi Chawla,Pune,54,Female,13,Winter Jacket,Clothing,1999,4,2024-07-08,Pending,7996,7,July,3,2024,No
+144,54,Neha Bhat,Mumbai,55,Female,19,Shampoo 400ml,Beauty,199,2,2024-07-31,Delivered,398,7,July,3,2024,Yes
+145,63,Ayesha Yadav,Hyderabad,22,Male,20,Notebook Set,Stationery,149,4,2024-05-23,Delivered,596,5,May,2,2024,Yes
+146,89,Aryan Singh,Chennai,50,Female,12,Ethnic Kurta,Clothing,699,2,2024-08-15,Cancelled,1398,8,August,3,2024,No
+147,31,Priya Verma,Chennai,33,Male,12,Ethnic Kurta,Clothing,699,1,2024-12-17,Delivered,699,12,December,4,2024,Yes
+148,70,Lakshmi Bhat,Mumbai,39,Male,12,Ethnic Kurta,Clothing,699,1,2024-07-22,Delivered,699,7,July,3,2024,Yes
+149,25,Suresh Trivedi,Mumbai,25,Female,4,Mechanical Keyboard,Electronics,2499,4,2024-02-16,Delivered,9996,2,February,1,2024,Yes
+150,83,Lakshmi Kapoor,Kolkata,52,Female,20,Notebook Set,Stationery,149,1,2024-01-26,Delivered,149,1,January,1,2024,Yes
+151,32,Kavya Verma,Delhi,23,Female,5,Webcam HD,Electronics,1899,2,2024-02-05,Pending,3798,2,February,1,2024,No
+152,27,Sanjay Agarwal,Chennai,50,Male,19,Shampoo 400ml,Beauty,199,2,2024-04-29,Delivered,398,4,April,2,2024,Yes
+153,100,Kavya Das,Mumbai,24,Female,5,Webcam HD,Electronics,1899,1,2024-05-21,Delivered,1899,5,May,2,2024,Yes
+154,17,Karan Tiwari,Mumbai,38,Female,18,Sunscreen SPF50,Beauty,299,3,2024-03-30,Delivered,897,3,March,1,2024,Yes
+155,85,Akash Chopra,Kolkata,40,Female,1,Wireless Earbuds,Electronics,1299,2,2024-01-08,Delivered,2598,1,January,1,2024,Yes
+156,31,Priya Verma,Chennai,33,Male,19,Shampoo 400ml,Beauty,199,3,2024-01-09,Delivered,597,1,January,1,2024,Yes
+157,34,Suresh Desai,Chennai,51,Female,2,USB-C Hub,Electronics,899,2,2024-08-03,Pending,1798,8,August,3,2024,No
+158,15,Sunita Singh,Pune,28,Female,3,Laptop Stand,Electronics,699,4,2024-08-17,Delivered,2796,8,August,3,2024,Yes
+159,66,Arjun Verma,Bangalore,34,Male,19,Shampoo 400ml,Beauty,199,1,2024-08-19,Pending,199,8,August,3,2024,No
+160,29,Deepika Kapoor,Bangalore,52,Male,20,Notebook Set,Stationery,149,1,2024-12-03,Pending,149,12,December,4,2024,No
+161,39,Akash Trivedi,Hyderabad,22,Male,15,Resistance Bands Set,Sports,349,1,2024-02-01,Cancelled,349,2,February,1,2024,No
+162,52,Rohit Shah,Jaipur,27,Male,14,Yoga Mat,Sports,599,1,2024-09-08,Cancelled,599,9,September,3,2024,No
+163,10,Rahul Chawla,Chennai,41,Male,3,Laptop Stand,Electronics,699,3,2024-11-07,Delivered,2097,11,November,4,2024,Yes
+164,9,Vikram Iyer,Mumbai,47,Male,5,Webcam HD,Electronics,1899,3,2024-11-15,Delivered,5697,11,November,4,2024,Yes
+165,71,Kunal Desai,Jaipur,53,Female,11,Denim Jeans,Clothing,899,4,2024-11-01,Pending,3596,11,November,4,2024,No
+166,38,Varun Gupta,Mumbai,22,Male,15,Resistance Bands Set,Sports,349,4,2024-02-20,Delivered,1396,2,February,1,2024,Yes
+167,84,Aditya Chopra,Chennai,29,Female,18,Sunscreen SPF50,Beauty,299,2,2024-08-08,Cancelled,598,8,August,3,2024,No
+168,30,Vikram Joshi,Jaipur,19,Male,14,Yoga Mat,Sports,599,3,2024-08-20,Returned,1797,8,August,3,2024,No
+169,54,Neha Bhat,Mumbai,55,Female,4,Mechanical Keyboard,Electronics,2499,3,2024-08-06,Delivered,7497,8,August,3,2024,Yes
+170,86,Rohit Rao,Delhi,42,Male,9,Sports Sandals,Footwear,599,3,2024-03-19,Cancelled,1797,3,March,1,2024,No
+171,9,Vikram Iyer,Mumbai,47,Male,3,Laptop Stand,Electronics,699,1,2024-02-17,Returned,699,2,February,1,2024,No
+172,13,Sanjay Reddy,Hyderabad,28,Female,12,Ethnic Kurta,Clothing,699,2,2024-10-11,Delivered,1398,10,October,4,2024,Yes
+173,76,Arjun Kapoor,Kolkata,27,Male,18,Sunscreen SPF50,Beauty,299,3,2024-12-09,Delivered,897,12,December,4,2024,Yes
+174,53,Manish Gandhi,Mumbai,55,Male,12,Ethnic Kurta,Clothing,699,4,2024-01-27,Delivered,2796,1,January,1,2024,Yes
+175,77,Divya Srivastava,Bangalore,44,Male,10,Cotton T-Shirt,Clothing,399,3,2024-02-23,Delivered,1197,2,February,1,2024,Yes
+176,65,Vishal Srivastava,Mumbai,53,Female,7,Casual Sneakers,Footwear,999,2,2024-12-02,Cancelled,1998,12,December,4,2024,No
+177,29,Deepika Kapoor,Bangalore,52,Male,4,Mechanical Keyboard,Electronics,2499,3,2024-10-11,Delivered,7497,10,October,4,2024,Yes
+178,15,Sunita Singh,Pune,28,Female,9,Sports Sandals,Footwear,599,2,2024-08-07,Pending,1198,8,August,3,2024,No
+179,99,Tanvi Gandhi,Kolkata,49,Female,20,Notebook Set,Stationery,149,1,2024-11-07,Delivered,149,11,November,4,2024,Yes
+180,4,Ishita Gupta,Mumbai,53,Male,6,Running Shoes,Footwear,1599,3,2024-12-25,Delivered,4797,12,December,4,2024,Yes
+181,44,Arjun Bhat,Kolkata,39,Male,12,Ethnic Kurta,Clothing,699,1,2024-04-02,Delivered,699,4,April,2,2024,Yes
+182,73,Sunita Bhat,Hyderabad,55,Male,13,Winter Jacket,Clothing,1999,1,2024-03-13,Delivered,1999,3,March,1,2024,Yes
+183,12,Karan Trivedi,Delhi,42,Female,17,Face Moisturiser,Beauty,449,2,2024-07-11,Returned,898,7,July,3,2024,No
+184,59,Kunal Gandhi,Hyderabad,33,Female,11,Denim Jeans,Clothing,899,2,2024-07-08,Delivered,1798,7,July,3,2024,Yes
+185,93,Ishita Kumar,Hyderabad,47,Female,11,Denim Jeans,Clothing,899,1,2024-01-27,Delivered,899,1,January,1,2024,Yes
+186,21,Varun Khanna,Hyderabad,32,Male,20,Notebook Set,Stationery,149,1,2024-12-11,Delivered,149,12,December,4,2024,Yes
+187,35,Ishita Yadav,Pune,37,Female,15,Resistance Bands Set,Sports,349,4,2024-09-05,Delivered,1396,9,September,3,2024,Yes
+188,57,Aryan Verma,Pune,55,Male,14,Yoga Mat,Sports,599,3,2024-04-20,Pending,1797,4,April,2,2024,No
+189,15,Sunita Singh,Pune,28,Female,12,Ethnic Kurta,Clothing,699,4,2024-02-26,Delivered,2796,2,February,1,2024,Yes
+190,87,Kunal Bhat,Kolkata,18,Male,19,Shampoo 400ml,Beauty,199,4,2024-09-26,Delivered,796,9,September,3,2024,Yes
+191,6,Aarav Sinha,Bangalore,45,Female,8,Formal Shoes,Footwear,1299,4,2024-11-02,Delivered,5196,11,November,4,2024,Yes
+192,1,Aryan Agarwal,Chennai,33,Male,7,Casual Sneakers,Footwear,999,3,2024-04-18,Delivered,2997,4,April,2,2024,Yes
+193,98,Shreya Rao,Delhi,47,Female,9,Sports Sandals,Footwear,599,3,2024-06-16,Delivered,1797,6,June,2,2024,Yes
+194,1,Aryan Agarwal,Chennai,33,Male,16,Water Bottle 1L,Sports,299,4,2024-03-30,Delivered,1196,3,March,1,2024,Yes
+195,49,Divya Kumar,Jaipur,48,Male,18,Sunscreen SPF50,Beauty,299,2,2024-09-13,Pending,598,9,September,3,2024,No
+196,86,Rohit Rao,Delhi,42,Male,12,Ethnic Kurta,Clothing,699,1,2024-07-22,Delivered,699,7,July,3,2024,Yes
+197,56,Gaurav Chawla,Delhi,33,Female,1,Wireless Earbuds,Electronics,1299,4,2024-02-09,Delivered,5196,2,February,1,2024,Yes
+198,74,Rohit Das,Mumbai,37,Female,14,Yoga Mat,Sports,599,4,2024-12-29,Returned,2396,12,December,4,2024,No
+199,38,Varun Gupta,Mumbai,22,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-01-11,Delivered,9996,1,January,1,2024,Yes
+200,22,Sneha Mishra,Delhi,21,Male,20,Notebook Set,Stationery,149,4,2024-12-19,Delivered,596,12,December,4,2024,Yes
+201,12,Karan Trivedi,Delhi,42,Female,14,Yoga Mat,Sports,599,1,2024-05-04,Returned,599,5,May,2,2024,No
+202,76,Arjun Kapoor,Kolkata,27,Male,13,Winter Jacket,Clothing,1999,1,2024-07-21,Delivered,1999,7,July,3,2024,Yes
+203,96,Anjali Tiwari,Pune,37,Male,11,Denim Jeans,Clothing,899,2,2024-06-19,Delivered,1798,6,June,2,2024,Yes
+204,10,Rahul Chawla,Chennai,41,Male,17,Face Moisturiser,Beauty,449,1,2024-09-28,Pending,449,9,September,3,2024,No
+205,25,Suresh Trivedi,Mumbai,25,Female,12,Ethnic Kurta,Clothing,699,3,2024-11-26,Delivered,2097,11,November,4,2024,Yes
+206,31,Priya Verma,Chennai,33,Male,4,Mechanical Keyboard,Electronics,2499,2,2024-05-11,Delivered,4998,5,May,2,2024,Yes
+207,23,Deepika Reddy,Bangalore,45,Male,20,Notebook Set,Stationery,149,2,2024-12-01,Delivered,298,12,December,4,2024,Yes
+208,23,Deepika Reddy,Bangalore,45,Male,16,Water Bottle 1L,Sports,299,4,2024-10-15,Delivered,1196,10,October,4,2024,Yes
+209,58,Vishal Chawla,Kolkata,55,Female,19,Shampoo 400ml,Beauty,199,3,2024-11-17,Delivered,597,11,November,4,2024,Yes
+210,20,Deepika Iyer,Bangalore,33,Female,15,Resistance Bands Set,Sports,349,1,2024-08-28,Cancelled,349,8,August,3,2024,No
+211,81,Meera Tiwari,Pune,32,Male,10,Cotton T-Shirt,Clothing,399,3,2024-10-29,Delivered,1197,10,October,4,2024,Yes
+212,46,Ayesha Kumar,Bangalore,35,Female,17,Face Moisturiser,Beauty,449,1,2024-06-07,Cancelled,449,6,June,2,2024,No
+213,58,Vishal Chawla,Kolkata,55,Female,2,USB-C Hub,Electronics,899,1,2024-07-07,Delivered,899,7,July,3,2024,Yes
+214,10,Rahul Chawla,Chennai,41,Male,3,Laptop Stand,Electronics,699,4,2024-08-24,Delivered,2796,8,August,3,2024,Yes
+215,71,Kunal Desai,Jaipur,53,Female,2,USB-C Hub,Electronics,899,4,2024-10-19,Delivered,3596,10,October,4,2024,Yes
+216,42,Ravi Gandhi,Delhi,24,Female,20,Notebook Set,Stationery,149,4,2024-09-13,Delivered,596,9,September,3,2024,Yes
+217,8,Anjali Khanna,Delhi,40,Female,15,Resistance Bands Set,Sports,349,1,2024-06-24,Delivered,349,6,June,2,2024,Yes
+218,65,Vishal Srivastava,Mumbai,53,Female,6,Running Shoes,Footwear,1599,1,2024-05-06,Cancelled,1599,5,May,2,2024,No
+219,57,Aryan Verma,Pune,55,Male,17,Face Moisturiser,Beauty,449,2,2024-07-05,Delivered,898,7,July,3,2024,Yes
+220,37,Karan Chawla,Hyderabad,19,Male,13,Winter Jacket,Clothing,1999,4,2024-06-22,Delivered,7996,6,June,2,2024,Yes
+221,7,Lakshmi Das,Pune,39,Male,11,Denim Jeans,Clothing,899,1,2024-06-17,Delivered,899,6,June,2,2024,Yes
+222,72,Suresh Agarwal,Delhi,22,Male,13,Winter Jacket,Clothing,1999,3,2024-05-09,Delivered,5997,5,May,2,2024,Yes
+223,20,Deepika Iyer,Bangalore,33,Female,11,Denim Jeans,Clothing,899,1,2024-10-25,Delivered,899,10,October,4,2024,Yes
+224,45,Kavya Gandhi,Pune,52,Female,10,Cotton T-Shirt,Clothing,399,4,2024-03-07,Delivered,1596,3,March,1,2024,Yes
+225,91,Ishaan Kumar,Kolkata,29,Female,3,Laptop Stand,Electronics,699,3,2024-10-13,Returned,2097,10,October,4,2024,No
+226,83,Lakshmi Kapoor,Kolkata,52,Female,11,Denim Jeans,Clothing,899,2,2024-12-09,Pending,1798,12,December,4,2024,No
+227,12,Karan Trivedi,Delhi,42,Female,14,Yoga Mat,Sports,599,3,2024-01-10,Delivered,1797,1,January,1,2024,Yes
+228,40,Lakshmi Sharma,Jaipur,31,Male,6,Running Shoes,Footwear,1599,2,2024-06-23,Cancelled,3198,6,June,2,2024,No
+229,25,Suresh Trivedi,Mumbai,25,Female,8,Formal Shoes,Footwear,1299,2,2024-03-20,Delivered,2598,3,March,1,2024,Yes
+230,38,Varun Gupta,Mumbai,22,Male,4,Mechanical Keyboard,Electronics,2499,1,2024-12-04,Delivered,2499,12,December,4,2024,Yes
+231,99,Tanvi Gandhi,Kolkata,49,Female,20,Notebook Set,Stationery,149,2,2024-11-01,Returned,298,11,November,4,2024,No
+232,20,Deepika Iyer,Bangalore,33,Female,6,Running Shoes,Footwear,1599,2,2024-12-20,Delivered,3198,12,December,4,2024,Yes
+233,22,Sneha Mishra,Delhi,21,Male,15,Resistance Bands Set,Sports,349,1,2024-07-29,Delivered,349,7,July,3,2024,Yes
+234,87,Kunal Bhat,Kolkata,18,Male,8,Formal Shoes,Footwear,1299,4,2024-11-08,Delivered,5196,11,November,4,2024,Yes
+235,97,Ishaan Das,Mumbai,20,Male,15,Resistance Bands Set,Sports,349,2,2024-09-30,Delivered,698,9,September,3,2024,Yes
+236,40,Lakshmi Sharma,Jaipur,31,Male,16,Water Bottle 1L,Sports,299,2,2024-07-07,Delivered,598,7,July,3,2024,Yes
+237,57,Aryan Verma,Pune,55,Male,15,Resistance Bands Set,Sports,349,3,2024-07-14,Pending,1047,7,July,3,2024,No
+238,68,Vikram Gandhi,Hyderabad,31,Female,14,Yoga Mat,Sports,599,2,2024-04-12,Delivered,1198,4,April,2,2024,Yes
+239,18,Lakshmi Chawla,Pune,54,Female,9,Sports Sandals,Footwear,599,1,2024-11-24,Cancelled,599,11,November,4,2024,No
+240,48,Amit Reddy,Mumbai,23,Male,18,Sunscreen SPF50,Beauty,299,1,2024-12-30,Pending,299,12,December,4,2024,No
+241,16,Rahul Iyer,Pune,38,Male,10,Cotton T-Shirt,Clothing,399,1,2024-03-23,Delivered,399,3,March,1,2024,Yes
+242,58,Vishal Chawla,Kolkata,55,Female,17,Face Moisturiser,Beauty,449,2,2024-08-11,Delivered,898,8,August,3,2024,Yes
+243,29,Deepika Kapoor,Bangalore,52,Male,15,Resistance Bands Set,Sports,349,3,2024-01-14,Returned,1047,1,January,1,2024,No
+244,7,Lakshmi Das,Pune,39,Male,13,Winter Jacket,Clothing,1999,3,2024-04-30,Returned,5997,4,April,2,2024,No
+245,11,Ananya Bhat,Pune,36,Male,12,Ethnic Kurta,Clothing,699,2,2024-01-15,Delivered,1398,1,January,1,2024,Yes
+246,13,Sanjay Reddy,Hyderabad,28,Female,11,Denim Jeans,Clothing,899,2,2024-03-11,Delivered,1798,3,March,1,2024,Yes
+247,37,Karan Chawla,Hyderabad,19,Male,16,Water Bottle 1L,Sports,299,2,2024-12-27,Cancelled,598,12,December,4,2024,No
+248,58,Vishal Chawla,Kolkata,55,Female,20,Notebook Set,Stationery,149,1,2024-02-10,Delivered,149,2,February,1,2024,Yes
+249,33,Ananya Sinha,Bangalore,26,Female,7,Casual Sneakers,Footwear,999,2,2024-10-07,Delivered,1998,10,October,4,2024,Yes
+250,68,Vikram Gandhi,Hyderabad,31,Female,14,Yoga Mat,Sports,599,1,2024-05-27,Delivered,599,5,May,2,2024,Yes
+251,39,Akash Trivedi,Hyderabad,22,Male,4,Mechanical Keyboard,Electronics,2499,1,2024-05-02,Returned,2499,5,May,2,2024,No
+252,82,Ishaan Khanna,Hyderabad,35,Male,20,Notebook Set,Stationery,149,4,2024-02-02,Delivered,596,2,February,1,2024,Yes
+253,64,Priya Jain,Bangalore,46,Female,20,Notebook Set,Stationery,149,1,2024-11-19,Pending,149,11,November,4,2024,No
+254,74,Rohit Das,Mumbai,37,Female,8,Formal Shoes,Footwear,1299,2,2024-05-29,Returned,2598,5,May,2,2024,No
+255,1,Aryan Agarwal,Chennai,33,Male,20,Notebook Set,Stationery,149,3,2024-05-03,Delivered,447,5,May,2,2024,Yes
+256,54,Neha Bhat,Mumbai,55,Female,6,Running Shoes,Footwear,1599,1,2024-09-25,Delivered,1599,9,September,3,2024,Yes
+257,9,Vikram Iyer,Mumbai,47,Male,17,Face Moisturiser,Beauty,449,1,2024-07-18,Cancelled,449,7,July,3,2024,No
+258,6,Aarav Sinha,Bangalore,45,Female,13,Winter Jacket,Clothing,1999,3,2024-05-09,Delivered,5997,5,May,2,2024,Yes
+259,46,Ayesha Kumar,Bangalore,35,Female,3,Laptop Stand,Electronics,699,3,2024-05-03,Delivered,2097,5,May,2,2024,Yes
+260,99,Tanvi Gandhi,Kolkata,49,Female,19,Shampoo 400ml,Beauty,199,3,2024-03-09,Delivered,597,3,March,1,2024,Yes
+261,46,Ayesha Kumar,Bangalore,35,Female,18,Sunscreen SPF50,Beauty,299,3,2024-11-25,Delivered,897,11,November,4,2024,Yes
+262,100,Kavya Das,Mumbai,24,Female,15,Resistance Bands Set,Sports,349,4,2024-11-19,Delivered,1396,11,November,4,2024,Yes
+263,18,Lakshmi Chawla,Pune,54,Female,3,Laptop Stand,Electronics,699,4,2024-01-19,Delivered,2796,1,January,1,2024,Yes
+264,26,Nikhil Chopra,Chennai,45,Male,2,USB-C Hub,Electronics,899,2,2024-01-22,Delivered,1798,1,January,1,2024,Yes
+265,40,Lakshmi Sharma,Jaipur,31,Male,17,Face Moisturiser,Beauty,449,4,2024-10-05,Cancelled,1796,10,October,4,2024,No
+266,33,Ananya Sinha,Bangalore,26,Female,2,USB-C Hub,Electronics,899,2,2024-05-26,Delivered,1798,5,May,2,2024,Yes
+267,100,Kavya Das,Mumbai,24,Female,2,USB-C Hub,Electronics,899,3,2024-05-19,Delivered,2697,5,May,2,2024,Yes
+268,48,Amit Reddy,Mumbai,23,Male,14,Yoga Mat,Sports,599,4,2024-08-13,Returned,2396,8,August,3,2024,No
+269,44,Arjun Bhat,Kolkata,39,Male,6,Running Shoes,Footwear,1599,4,2024-12-20,Cancelled,6396,12,December,4,2024,No
+270,48,Amit Reddy,Mumbai,23,Male,17,Face Moisturiser,Beauty,449,3,2024-02-12,Returned,1347,2,February,1,2024,No
+271,11,Ananya Bhat,Pune,36,Male,14,Yoga Mat,Sports,599,2,2024-10-06,Delivered,1198,10,October,4,2024,Yes
+272,42,Ravi Gandhi,Delhi,24,Female,4,Mechanical Keyboard,Electronics,2499,1,2024-06-16,Delivered,2499,6,June,2,2024,Yes
+273,40,Lakshmi Sharma,Jaipur,31,Male,15,Resistance Bands Set,Sports,349,4,2024-03-26,Cancelled,1396,3,March,1,2024,No
+274,45,Kavya Gandhi,Pune,52,Female,15,Resistance Bands Set,Sports,349,1,2024-06-29,Delivered,349,6,June,2,2024,Yes
+275,56,Gaurav Chawla,Delhi,33,Female,9,Sports Sandals,Footwear,599,1,2024-02-08,Returned,599,2,February,1,2024,No
+276,47,Kavya Trivedi,Delhi,46,Male,17,Face Moisturiser,Beauty,449,2,2024-01-16,Delivered,898,1,January,1,2024,Yes
+277,78,Gaurav Singh,Hyderabad,44,Male,15,Resistance Bands Set,Sports,349,1,2024-03-05,Delivered,349,3,March,1,2024,Yes
+278,31,Priya Verma,Chennai,33,Male,12,Ethnic Kurta,Clothing,699,3,2024-07-15,Delivered,2097,7,July,3,2024,Yes
+279,5,Sunita Kumar,Pune,46,Female,20,Notebook Set,Stationery,149,2,2024-12-13,Cancelled,298,12,December,4,2024,No
+280,48,Amit Reddy,Mumbai,23,Male,12,Ethnic Kurta,Clothing,699,4,2024-02-09,Delivered,2796,2,February,1,2024,Yes
+281,18,Lakshmi Chawla,Pune,54,Female,17,Face Moisturiser,Beauty,449,3,2024-07-22,Delivered,1347,7,July,3,2024,Yes
+282,84,Aditya Chopra,Chennai,29,Female,9,Sports Sandals,Footwear,599,2,2024-02-28,Delivered,1198,2,February,1,2024,Yes
+283,95,Divya Sharma,Delhi,36,Female,6,Running Shoes,Footwear,1599,4,2024-09-22,Returned,6396,9,September,3,2024,No
+284,72,Suresh Agarwal,Delhi,22,Male,4,Mechanical Keyboard,Electronics,2499,3,2024-05-13,Cancelled,7497,5,May,2,2024,No
+285,28,Sneha Yadav,Delhi,37,Male,20,Notebook Set,Stationery,149,3,2024-12-21,Cancelled,447,12,December,4,2024,No
+286,26,Nikhil Chopra,Chennai,45,Male,4,Mechanical Keyboard,Electronics,2499,2,2024-02-07,Cancelled,4998,2,February,1,2024,No
+287,23,Deepika Reddy,Bangalore,45,Male,15,Resistance Bands Set,Sports,349,1,2024-12-15,Delivered,349,12,December,4,2024,Yes
+288,86,Rohit Rao,Delhi,42,Male,12,Ethnic Kurta,Clothing,699,1,2024-10-08,Pending,699,10,October,4,2024,No
+289,38,Varun Gupta,Mumbai,22,Male,10,Cotton T-Shirt,Clothing,399,2,2024-12-30,Delivered,798,12,December,4,2024,Yes
+290,47,Kavya Trivedi,Delhi,46,Male,17,Face Moisturiser,Beauty,449,2,2024-03-03,Delivered,898,3,March,1,2024,Yes
+291,18,Lakshmi Chawla,Pune,54,Female,8,Formal Shoes,Footwear,1299,4,2024-01-14,Delivered,5196,1,January,1,2024,Yes
+292,71,Kunal Desai,Jaipur,53,Female,19,Shampoo 400ml,Beauty,199,3,2024-08-27,Pending,597,8,August,3,2024,No
+293,17,Karan Tiwari,Mumbai,38,Female,20,Notebook Set,Stationery,149,1,2024-02-03,Delivered,149,2,February,1,2024,Yes
+294,51,Aarav Khanna,Chennai,47,Female,16,Water Bottle 1L,Sports,299,4,2024-07-28,Delivered,1196,7,July,3,2024,Yes
+295,10,Rahul Chawla,Chennai,41,Male,5,Webcam HD,Electronics,1899,3,2024-11-24,Delivered,5697,11,November,4,2024,Yes
+296,58,Vishal Chawla,Kolkata,55,Female,15,Resistance Bands Set,Sports,349,3,2024-03-06,Pending,1047,3,March,1,2024,No
+297,82,Ishaan Khanna,Hyderabad,35,Male,19,Shampoo 400ml,Beauty,199,2,2024-03-07,Returned,398,3,March,1,2024,No
+298,65,Vishal Srivastava,Mumbai,53,Female,2,USB-C Hub,Electronics,899,1,2024-09-22,Delivered,899,9,September,3,2024,Yes
+299,39,Akash Trivedi,Hyderabad,22,Male,6,Running Shoes,Footwear,1599,2,2024-06-14,Delivered,3198,6,June,2,2024,Yes
+300,45,Kavya Gandhi,Pune,52,Female,17,Face Moisturiser,Beauty,449,3,2024-02-10,Delivered,1347,2,February,1,2024,Yes
+301,26,Nikhil Chopra,Chennai,45,Male,18,Sunscreen SPF50,Beauty,299,3,2024-03-05,Delivered,897,3,March,1,2024,Yes
+302,79,Lakshmi Desai,Delhi,42,Male,18,Sunscreen SPF50,Beauty,299,1,2024-09-14,Delivered,299,9,September,3,2024,Yes
+303,76,Arjun Kapoor,Kolkata,27,Male,19,Shampoo 400ml,Beauty,199,2,2024-03-28,Delivered,398,3,March,1,2024,Yes
+304,93,Ishita Kumar,Hyderabad,47,Female,20,Notebook Set,Stationery,149,3,2024-10-15,Delivered,447,10,October,4,2024,Yes
+305,4,Ishita Gupta,Mumbai,53,Male,3,Laptop Stand,Electronics,699,1,2024-11-24,Delivered,699,11,November,4,2024,Yes
+306,34,Suresh Desai,Chennai,51,Female,7,Casual Sneakers,Footwear,999,4,2024-11-12,Delivered,3996,11,November,4,2024,Yes
+307,64,Priya Jain,Bangalore,46,Female,18,Sunscreen SPF50,Beauty,299,3,2024-11-24,Delivered,897,11,November,4,2024,Yes
+308,62,Ananya Patel,Pune,50,Female,8,Formal Shoes,Footwear,1299,4,2024-06-01,Cancelled,5196,6,June,2,2024,No
+309,10,Rahul Chawla,Chennai,41,Male,2,USB-C Hub,Electronics,899,2,2024-08-13,Returned,1798,8,August,3,2024,No
+310,62,Ananya Patel,Pune,50,Female,15,Resistance Bands Set,Sports,349,2,2024-06-23,Delivered,698,6,June,2,2024,Yes
+311,19,Ishita Reddy,Jaipur,43,Female,11,Denim Jeans,Clothing,899,3,2024-06-25,Returned,2697,6,June,2,2024,No
+312,17,Karan Tiwari,Mumbai,38,Female,12,Ethnic Kurta,Clothing,699,1,2024-06-12,Delivered,699,6,June,2,2024,Yes
+313,60,Raj Das,Chennai,47,Female,4,Mechanical Keyboard,Electronics,2499,3,2024-08-18,Delivered,7497,8,August,3,2024,Yes
+314,19,Ishita Reddy,Jaipur,43,Female,4,Mechanical Keyboard,Electronics,2499,1,2024-05-28,Returned,2499,5,May,2,2024,No
+315,79,Lakshmi Desai,Delhi,42,Male,14,Yoga Mat,Sports,599,2,2024-03-22,Delivered,1198,3,March,1,2024,Yes
+316,74,Rohit Das,Mumbai,37,Female,11,Denim Jeans,Clothing,899,2,2024-03-22,Cancelled,1798,3,March,1,2024,No
+317,66,Arjun Verma,Bangalore,34,Male,15,Resistance Bands Set,Sports,349,4,2024-06-06,Cancelled,1396,6,June,2,2024,No
+318,3,Varun Kumar,Mumbai,19,Male,3,Laptop Stand,Electronics,699,4,2024-09-15,Cancelled,2796,9,September,3,2024,No
+319,31,Priya Verma,Chennai,33,Male,7,Casual Sneakers,Footwear,999,3,2024-01-25,Delivered,2997,1,January,1,2024,Yes
+320,37,Karan Chawla,Hyderabad,19,Male,16,Water Bottle 1L,Sports,299,4,2024-05-26,Pending,1196,5,May,2,2024,No
+321,2,Ayesha Singh,Delhi,52,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-03-09,Delivered,9996,3,March,1,2024,Yes
+322,94,Sakshi Sharma,Pune,50,Female,12,Ethnic Kurta,Clothing,699,4,2024-07-06,Delivered,2796,7,July,3,2024,Yes
+323,52,Rohit Shah,Jaipur,27,Male,2,USB-C Hub,Electronics,899,2,2024-07-04,Pending,1798,7,July,3,2024,No
+324,37,Karan Chawla,Hyderabad,19,Male,3,Laptop Stand,Electronics,699,4,2024-09-15,Cancelled,2796,9,September,3,2024,No
+325,98,Shreya Rao,Delhi,47,Female,18,Sunscreen SPF50,Beauty,299,3,2024-11-15,Delivered,897,11,November,4,2024,Yes
+326,16,Rahul Iyer,Pune,38,Male,5,Webcam HD,Electronics,1899,1,2024-07-20,Delivered,1899,7,July,3,2024,Yes
+327,44,Arjun Bhat,Kolkata,39,Male,18,Sunscreen SPF50,Beauty,299,3,2024-03-14,Delivered,897,3,March,1,2024,Yes
+328,78,Gaurav Singh,Hyderabad,44,Male,17,Face Moisturiser,Beauty,449,4,2024-09-13,Delivered,1796,9,September,3,2024,Yes
+329,6,Aarav Sinha,Bangalore,45,Female,2,USB-C Hub,Electronics,899,2,2024-12-31,Delivered,1798,12,December,4,2024,Yes
+330,61,Ananya Agarwal,Jaipur,54,Male,17,Face Moisturiser,Beauty,449,4,2024-03-17,Delivered,1796,3,March,1,2024,Yes
+331,66,Arjun Verma,Bangalore,34,Male,5,Webcam HD,Electronics,1899,3,2024-11-09,Delivered,5697,11,November,4,2024,Yes
+332,21,Varun Khanna,Hyderabad,32,Male,13,Winter Jacket,Clothing,1999,3,2024-10-30,Delivered,5997,10,October,4,2024,Yes
+333,65,Vishal Srivastava,Mumbai,53,Female,17,Face Moisturiser,Beauty,449,4,2024-12-28,Delivered,1796,12,December,4,2024,Yes
+334,39,Akash Trivedi,Hyderabad,22,Male,16,Water Bottle 1L,Sports,299,1,2024-07-07,Delivered,299,7,July,3,2024,Yes
+335,87,Kunal Bhat,Kolkata,18,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-10-25,Delivered,9996,10,October,4,2024,Yes
+336,93,Ishita Kumar,Hyderabad,47,Female,1,Wireless Earbuds,Electronics,1299,4,2024-05-15,Delivered,5196,5,May,2,2024,Yes
+337,74,Rohit Das,Mumbai,37,Female,8,Formal Shoes,Footwear,1299,1,2024-10-25,Cancelled,1299,10,October,4,2024,No
+338,22,Sneha Mishra,Delhi,21,Male,17,Face Moisturiser,Beauty,449,4,2024-03-16,Delivered,1796,3,March,1,2024,Yes
+339,5,Sunita Kumar,Pune,46,Female,19,Shampoo 400ml,Beauty,199,1,2024-04-07,Delivered,199,4,April,2,2024,Yes
+340,57,Aryan Verma,Pune,55,Male,11,Denim Jeans,Clothing,899,4,2024-03-18,Returned,3596,3,March,1,2024,No
+341,89,Aryan Singh,Chennai,50,Female,7,Casual Sneakers,Footwear,999,4,2024-09-13,Delivered,3996,9,September,3,2024,Yes
+342,61,Ananya Agarwal,Jaipur,54,Male,2,USB-C Hub,Electronics,899,2,2024-09-22,Delivered,1798,9,September,3,2024,Yes
+343,72,Suresh Agarwal,Delhi,22,Male,11,Denim Jeans,Clothing,899,4,2024-09-26,Returned,3596,9,September,3,2024,No
+344,41,Tanvi Pillai,Jaipur,33,Female,6,Running Shoes,Footwear,1599,4,2024-09-29,Delivered,6396,9,September,3,2024,Yes
+345,70,Lakshmi Bhat,Mumbai,39,Male,12,Ethnic Kurta,Clothing,699,3,2024-11-08,Cancelled,2097,11,November,4,2024,No
+346,25,Suresh Trivedi,Mumbai,25,Female,8,Formal Shoes,Footwear,1299,3,2024-10-12,Delivered,3897,10,October,4,2024,Yes
+347,29,Deepika Kapoor,Bangalore,52,Male,10,Cotton T-Shirt,Clothing,399,3,2024-12-26,Delivered,1197,12,December,4,2024,Yes
+348,89,Aryan Singh,Chennai,50,Female,16,Water Bottle 1L,Sports,299,3,2024-09-02,Delivered,897,9,September,3,2024,Yes
+349,72,Suresh Agarwal,Delhi,22,Male,9,Sports Sandals,Footwear,599,3,2024-03-03,Delivered,1797,3,March,1,2024,Yes
+350,87,Kunal Bhat,Kolkata,18,Male,18,Sunscreen SPF50,Beauty,299,4,2024-07-21,Delivered,1196,7,July,3,2024,Yes
+351,99,Tanvi Gandhi,Kolkata,49,Female,5,Webcam HD,Electronics,1899,3,2024-01-22,Delivered,5697,1,January,1,2024,Yes
+352,92,Raj Patel,Mumbai,37,Female,3,Laptop Stand,Electronics,699,3,2024-08-14,Delivered,2097,8,August,3,2024,Yes
+353,96,Anjali Tiwari,Pune,37,Male,16,Water Bottle 1L,Sports,299,2,2024-04-13,Pending,598,4,April,2,2024,No
+354,35,Ishita Yadav,Pune,37,Female,18,Sunscreen SPF50,Beauty,299,3,2024-03-11,Delivered,897,3,March,1,2024,Yes
+355,79,Lakshmi Desai,Delhi,42,Male,19,Shampoo 400ml,Beauty,199,2,2024-05-04,Delivered,398,5,May,2,2024,Yes
+356,86,Rohit Rao,Delhi,42,Male,17,Face Moisturiser,Beauty,449,2,2024-11-22,Delivered,898,11,November,4,2024,Yes
+357,7,Lakshmi Das,Pune,39,Male,4,Mechanical Keyboard,Electronics,2499,4,2024-06-18,Cancelled,9996,6,June,2,2024,No
+358,13,Sanjay Reddy,Hyderabad,28,Female,5,Webcam HD,Electronics,1899,1,2024-10-08,Delivered,1899,10,October,4,2024,Yes
+359,53,Manish Gandhi,Mumbai,55,Male,16,Water Bottle 1L,Sports,299,4,2024-11-29,Delivered,1196,11,November,4,2024,Yes
+360,97,Ishaan Das,Mumbai,20,Male,10,Cotton T-Shirt,Clothing,399,3,2024-05-26,Delivered,1197,5,May,2,2024,Yes
+361,99,Tanvi Gandhi,Kolkata,49,Female,3,Laptop Stand,Electronics,699,2,2024-09-30,Delivered,1398,9,September,3,2024,Yes
+362,23,Deepika Reddy,Bangalore,45,Male,14,Yoga Mat,Sports,599,2,2024-01-19,Returned,1198,1,January,1,2024,No
+363,64,Priya Jain,Bangalore,46,Female,6,Running Shoes,Footwear,1599,3,2024-01-20,Delivered,4797,1,January,1,2024,Yes
+364,39,Akash Trivedi,Hyderabad,22,Male,19,Shampoo 400ml,Beauty,199,1,2024-06-20,Delivered,199,6,June,2,2024,Yes
+365,59,Kunal Gandhi,Hyderabad,33,Female,18,Sunscreen SPF50,Beauty,299,4,2024-03-09,Pending,1196,3,March,1,2024,No
+366,60,Raj Das,Chennai,47,Female,9,Sports Sandals,Footwear,599,2,2024-02-27,Delivered,1198,2,February,1,2024,Yes
+367,21,Varun Khanna,Hyderabad,32,Male,15,Resistance Bands Set,Sports,349,3,2024-04-05,Delivered,1047,4,April,2,2024,Yes
+368,95,Divya Sharma,Delhi,36,Female,11,Denim Jeans,Clothing,899,3,2024-10-17,Delivered,2697,10,October,4,2024,Yes
+369,23,Deepika Reddy,Bangalore,45,Male,20,Notebook Set,Stationery,149,4,2024-08-06,Pending,596,8,August,3,2024,No
+370,42,Ravi Gandhi,Delhi,24,Female,3,Laptop Stand,Electronics,699,4,2024-12-08,Delivered,2796,12,December,4,2024,Yes
+371,24,Rahul Khanna,Jaipur,51,Female,5,Webcam HD,Electronics,1899,4,2024-06-14,Delivered,7596,6,June,2,2024,Yes
+372,1,Aryan Agarwal,Chennai,33,Male,9,Sports Sandals,Footwear,599,4,2024-04-30,Cancelled,2396,4,April,2,2024,No
+373,97,Ishaan Das,Mumbai,20,Male,9,Sports Sandals,Footwear,599,3,2024-06-03,Delivered,1797,6,June,2,2024,Yes
+374,93,Ishita Kumar,Hyderabad,47,Female,19,Shampoo 400ml,Beauty,199,1,2024-05-13,Delivered,199,5,May,2,2024,Yes
+375,89,Aryan Singh,Chennai,50,Female,8,Formal Shoes,Footwear,1299,1,2024-12-07,Delivered,1299,12,December,4,2024,Yes
+376,60,Raj Das,Chennai,47,Female,10,Cotton T-Shirt,Clothing,399,2,2024-07-26,Pending,798,7,July,3,2024,No
+377,91,Ishaan Kumar,Kolkata,29,Female,10,Cotton T-Shirt,Clothing,399,1,2024-11-23,Delivered,399,11,November,4,2024,Yes
+378,48,Amit Reddy,Mumbai,23,Male,20,Notebook Set,Stationery,149,2,2024-04-22,Delivered,298,4,April,2,2024,Yes
+379,62,Ananya Patel,Pune,50,Female,5,Webcam HD,Electronics,1899,4,2024-11-06,Delivered,7596,11,November,4,2024,Yes
+380,54,Neha Bhat,Mumbai,55,Female,18,Sunscreen SPF50,Beauty,299,4,2024-10-02,Delivered,1196,10,October,4,2024,Yes
+381,98,Shreya Rao,Delhi,47,Female,8,Formal Shoes,Footwear,1299,1,2024-09-26,Cancelled,1299,9,September,3,2024,No
+382,68,Vikram Gandhi,Hyderabad,31,Female,12,Ethnic Kurta,Clothing,699,1,2024-10-15,Delivered,699,10,October,4,2024,Yes
+383,8,Anjali Khanna,Delhi,40,Female,18,Sunscreen SPF50,Beauty,299,2,2024-10-20,Pending,598,10,October,4,2024,No
+384,20,Deepika Iyer,Bangalore,33,Female,6,Running Shoes,Footwear,1599,3,2024-09-23,Cancelled,4797,9,September,3,2024,No
+385,15,Sunita Singh,Pune,28,Female,7,Casual Sneakers,Footwear,999,4,2024-02-16,Pending,3996,2,February,1,2024,No
+386,58,Vishal Chawla,Kolkata,55,Female,2,USB-C Hub,Electronics,899,4,2024-03-08,Pending,3596,3,March,1,2024,No
+387,54,Neha Bhat,Mumbai,55,Female,15,Resistance Bands Set,Sports,349,1,2024-10-13,Cancelled,349,10,October,4,2024,No
+388,87,Kunal Bhat,Kolkata,18,Male,10,Cotton T-Shirt,Clothing,399,1,2024-07-21,Delivered,399,7,July,3,2024,Yes
+389,1,Aryan Agarwal,Chennai,33,Male,7,Casual Sneakers,Footwear,999,1,2024-01-24,Returned,999,1,January,1,2024,No
+390,45,Kavya Gandhi,Pune,52,Female,3,Laptop Stand,Electronics,699,1,2024-02-05,Cancelled,699,2,February,1,2024,No
+391,5,Sunita Kumar,Pune,46,Female,10,Cotton T-Shirt,Clothing,399,4,2024-04-02,Delivered,1596,4,April,2,2024,Yes
+392,99,Tanvi Gandhi,Kolkata,49,Female,14,Yoga Mat,Sports,599,3,2024-07-14,Cancelled,1797,7,July,3,2024,No
+393,49,Divya Kumar,Jaipur,48,Male,13,Winter Jacket,Clothing,1999,1,2024-12-15,Pending,1999,12,December,4,2024,No
+394,18,Lakshmi Chawla,Pune,54,Female,12,Ethnic Kurta,Clothing,699,1,2024-04-01,Pending,699,4,April,2,2024,No
+395,51,Aarav Khanna,Chennai,47,Female,17,Face Moisturiser,Beauty,449,2,2024-04-24,Delivered,898,4,April,2,2024,Yes
+396,97,Ishaan Das,Mumbai,20,Male,1,Wireless Earbuds,Electronics,1299,3,2024-08-25,Pending,3897,8,August,3,2024,No
+397,55,Sonam Desai,Mumbai,50,Male,18,Sunscreen SPF50,Beauty,299,4,2024-04-27,Delivered,1196,4,April,2,2024,Yes
+398,59,Kunal Gandhi,Hyderabad,33,Female,12,Ethnic Kurta,Clothing,699,2,2024-05-21,Delivered,1398,5,May,2,2024,Yes
+399,93,Ishita Kumar,Hyderabad,47,Female,4,Mechanical Keyboard,Electronics,2499,1,2024-12-04,Returned,2499,12,December,4,2024,No
+400,79,Lakshmi Desai,Delhi,42,Male,1,Wireless Earbuds,Electronics,1299,2,2024-04-15,Delivered,2598,4,April,2,2024,Yes
+401,13,Sanjay Reddy,Hyderabad,28,Female,20,Notebook Set,Stationery,149,1,2024-08-16,Delivered,149,8,August,3,2024,Yes
+402,87,Kunal Bhat,Kolkata,18,Male,2,USB-C Hub,Electronics,899,2,2024-01-23,Returned,1798,1,January,1,2024,No
+403,57,Aryan Verma,Pune,55,Male,8,Formal Shoes,Footwear,1299,2,2024-01-29,Delivered,2598,1,January,1,2024,Yes
+404,65,Vishal Srivastava,Mumbai,53,Female,10,Cotton T-Shirt,Clothing,399,2,2024-10-21,Delivered,798,10,October,4,2024,Yes
+405,74,Rohit Das,Mumbai,37,Female,20,Notebook Set,Stationery,149,3,2024-05-01,Delivered,447,5,May,2,2024,Yes
+406,19,Ishita Reddy,Jaipur,43,Female,17,Face Moisturiser,Beauty,449,2,2024-07-30,Delivered,898,7,July,3,2024,Yes
+407,36,Priya Mehta,Jaipur,25,Male,2,USB-C Hub,Electronics,899,2,2024-11-16,Returned,1798,11,November,4,2024,No
+408,72,Suresh Agarwal,Delhi,22,Male,16,Water Bottle 1L,Sports,299,1,2024-06-25,Returned,299,6,June,2,2024,No
+409,68,Vikram Gandhi,Hyderabad,31,Female,11,Denim Jeans,Clothing,899,4,2024-07-28,Delivered,3596,7,July,3,2024,Yes
+410,39,Akash Trivedi,Hyderabad,22,Male,13,Winter Jacket,Clothing,1999,2,2024-10-02,Cancelled,3998,10,October,4,2024,No
+411,31,Priya Verma,Chennai,33,Male,8,Formal Shoes,Footwear,1299,3,2024-12-28,Delivered,3897,12,December,4,2024,Yes
+412,60,Raj Das,Chennai,47,Female,2,USB-C Hub,Electronics,899,4,2024-08-01,Pending,3596,8,August,3,2024,No
+413,68,Vikram Gandhi,Hyderabad,31,Female,5,Webcam HD,Electronics,1899,4,2024-05-04,Delivered,7596,5,May,2,2024,Yes
+414,27,Sanjay Agarwal,Chennai,50,Male,11,Denim Jeans,Clothing,899,1,2024-08-18,Delivered,899,8,August,3,2024,Yes
+415,12,Karan Trivedi,Delhi,42,Female,18,Sunscreen SPF50,Beauty,299,2,2024-01-27,Delivered,598,1,January,1,2024,Yes
+416,49,Divya Kumar,Jaipur,48,Male,20,Notebook Set,Stationery,149,1,2024-02-07,Delivered,149,2,February,1,2024,Yes
+417,98,Shreya Rao,Delhi,47,Female,19,Shampoo 400ml,Beauty,199,2,2024-09-02,Delivered,398,9,September,3,2024,Yes
+418,43,Pooja Kumar,Kolkata,47,Male,10,Cotton T-Shirt,Clothing,399,1,2024-04-18,Delivered,399,4,April,2,2024,Yes
+419,95,Divya Sharma,Delhi,36,Female,4,Mechanical Keyboard,Electronics,2499,4,2024-05-04,Delivered,9996,5,May,2,2024,Yes
+420,91,Ishaan Kumar,Kolkata,29,Female,7,Casual Sneakers,Footwear,999,4,2024-05-02,Pending,3996,5,May,2,2024,No
+421,42,Ravi Gandhi,Delhi,24,Female,10,Cotton T-Shirt,Clothing,399,4,2024-08-26,Pending,1596,8,August,3,2024,No
+422,84,Aditya Chopra,Chennai,29,Female,12,Ethnic Kurta,Clothing,699,3,2024-05-13,Delivered,2097,5,May,2,2024,Yes
+423,66,Arjun Verma,Bangalore,34,Male,16,Water Bottle 1L,Sports,299,4,2024-02-20,Cancelled,1196,2,February,1,2024,No
+424,98,Shreya Rao,Delhi,47,Female,11,Denim Jeans,Clothing,899,2,2024-07-08,Delivered,1798,7,July,3,2024,Yes
+425,53,Manish Gandhi,Mumbai,55,Male,2,USB-C Hub,Electronics,899,2,2024-03-15,Delivered,1798,3,March,1,2024,Yes
+426,34,Suresh Desai,Chennai,51,Female,18,Sunscreen SPF50,Beauty,299,4,2024-05-31,Delivered,1196,5,May,2,2024,Yes
+427,26,Nikhil Chopra,Chennai,45,Male,11,Denim Jeans,Clothing,899,2,2024-07-13,Delivered,1798,7,July,3,2024,Yes
+428,32,Kavya Verma,Delhi,23,Female,16,Water Bottle 1L,Sports,299,3,2024-05-11,Cancelled,897,5,May,2,2024,No
+429,93,Ishita Kumar,Hyderabad,47,Female,16,Water Bottle 1L,Sports,299,4,2024-03-27,Delivered,1196,3,March,1,2024,Yes
+430,22,Sneha Mishra,Delhi,21,Male,5,Webcam HD,Electronics,1899,4,2024-04-04,Pending,7596,4,April,2,2024,No
+431,83,Lakshmi Kapoor,Kolkata,52,Female,2,USB-C Hub,Electronics,899,1,2024-02-08,Delivered,899,2,February,1,2024,Yes
+432,98,Shreya Rao,Delhi,47,Female,1,Wireless Earbuds,Electronics,1299,4,2024-03-11,Delivered,5196,3,March,1,2024,Yes
+433,9,Vikram Iyer,Mumbai,47,Male,5,Webcam HD,Electronics,1899,1,2024-04-21,Pending,1899,4,April,2,2024,No
+434,59,Kunal Gandhi,Hyderabad,33,Female,12,Ethnic Kurta,Clothing,699,1,2024-11-12,Delivered,699,11,November,4,2024,Yes
+435,62,Ananya Patel,Pune,50,Female,16,Water Bottle 1L,Sports,299,1,2024-01-04,Pending,299,1,January,1,2024,No
+436,71,Kunal Desai,Jaipur,53,Female,14,Yoga Mat,Sports,599,1,2024-01-09,Pending,599,1,January,1,2024,No
+437,93,Ishita Kumar,Hyderabad,47,Female,9,Sports Sandals,Footwear,599,3,2024-01-09,Pending,1797,1,January,1,2024,No
+438,90,Ravi Joshi,Kolkata,36,Male,14,Yoga Mat,Sports,599,2,2024-02-24,Delivered,1198,2,February,1,2024,Yes
+439,68,Vikram Gandhi,Hyderabad,31,Female,5,Webcam HD,Electronics,1899,2,2024-04-08,Delivered,3798,4,April,2,2024,Yes
+440,68,Vikram Gandhi,Hyderabad,31,Female,9,Sports Sandals,Footwear,599,3,2024-05-16,Returned,1797,5,May,2,2024,No
+441,11,Ananya Bhat,Pune,36,Male,12,Ethnic Kurta,Clothing,699,4,2024-08-23,Delivered,2796,8,August,3,2024,Yes
+442,32,Kavya Verma,Delhi,23,Female,8,Formal Shoes,Footwear,1299,3,2024-12-16,Delivered,3897,12,December,4,2024,Yes
+443,84,Aditya Chopra,Chennai,29,Female,2,USB-C Hub,Electronics,899,1,2024-07-26,Returned,899,7,July,3,2024,No
+444,49,Divya Kumar,Jaipur,48,Male,18,Sunscreen SPF50,Beauty,299,4,2024-01-29,Delivered,1196,1,January,1,2024,Yes
+445,90,Ravi Joshi,Kolkata,36,Male,6,Running Shoes,Footwear,1599,1,2024-09-12,Returned,1599,9,September,3,2024,No
+446,83,Lakshmi Kapoor,Kolkata,52,Female,11,Denim Jeans,Clothing,899,1,2024-09-27,Delivered,899,9,September,3,2024,Yes
+447,30,Vikram Joshi,Jaipur,19,Male,7,Casual Sneakers,Footwear,999,4,2024-05-18,Delivered,3996,5,May,2,2024,Yes
+448,10,Rahul Chawla,Chennai,41,Male,9,Sports Sandals,Footwear,599,1,2024-04-01,Delivered,599,4,April,2,2024,Yes
+449,3,Varun Kumar,Mumbai,19,Male,7,Casual Sneakers,Footwear,999,2,2024-12-30,Returned,1998,12,December,4,2024,No
+450,10,Rahul Chawla,Chennai,41,Male,10,Cotton T-Shirt,Clothing,399,2,2024-10-15,Delivered,798,10,October,4,2024,Yes
+451,73,Sunita Bhat,Hyderabad,55,Male,13,Winter Jacket,Clothing,1999,3,2024-07-15,Delivered,5997,7,July,3,2024,Yes
+452,89,Aryan Singh,Chennai,50,Female,3,Laptop Stand,Electronics,699,3,2024-01-28,Delivered,2097,1,January,1,2024,Yes
+453,56,Gaurav Chawla,Delhi,33,Female,8,Formal Shoes,Footwear,1299,1,2024-06-23,Delivered,1299,6,June,2,2024,Yes
+454,99,Tanvi Gandhi,Kolkata,49,Female,20,Notebook Set,Stationery,149,4,2024-06-16,Delivered,596,6,June,2,2024,Yes
+455,82,Ishaan Khanna,Hyderabad,35,Male,9,Sports Sandals,Footwear,599,4,2024-09-08,Delivered,2396,9,September,3,2024,Yes
+456,46,Ayesha Kumar,Bangalore,35,Female,18,Sunscreen SPF50,Beauty,299,4,2024-08-09,Delivered,1196,8,August,3,2024,Yes
+457,88,Priya Kumar,Delhi,39,Female,19,Shampoo 400ml,Beauty,199,4,2024-02-13,Delivered,796,2,February,1,2024,Yes
+458,38,Varun Gupta,Mumbai,22,Male,8,Formal Shoes,Footwear,1299,1,2024-02-12,Delivered,1299,2,February,1,2024,Yes
+459,20,Deepika Iyer,Bangalore,33,Female,13,Winter Jacket,Clothing,1999,2,2024-07-18,Delivered,3998,7,July,3,2024,Yes
+460,47,Kavya Trivedi,Delhi,46,Male,4,Mechanical Keyboard,Electronics,2499,1,2024-01-03,Delivered,2499,1,January,1,2024,Yes
+461,57,Aryan Verma,Pune,55,Male,12,Ethnic Kurta,Clothing,699,3,2024-02-22,Delivered,2097,2,February,1,2024,Yes
+462,12,Karan Trivedi,Delhi,42,Female,6,Running Shoes,Footwear,1599,4,2024-08-17,Pending,6396,8,August,3,2024,No
+463,72,Suresh Agarwal,Delhi,22,Male,17,Face Moisturiser,Beauty,449,4,2024-02-22,Delivered,1796,2,February,1,2024,Yes
+464,12,Karan Trivedi,Delhi,42,Female,12,Ethnic Kurta,Clothing,699,1,2024-11-01,Delivered,699,11,November,4,2024,Yes
+465,42,Ravi Gandhi,Delhi,24,Female,13,Winter Jacket,Clothing,1999,1,2024-05-29,Returned,1999,5,May,2,2024,No
+466,50,Raj Verma,Mumbai,28,Female,3,Laptop Stand,Electronics,699,2,2024-10-19,Pending,1398,10,October,4,2024,No
+467,22,Sneha Mishra,Delhi,21,Male,13,Winter Jacket,Clothing,1999,2,2024-03-12,Delivered,3998,3,March,1,2024,Yes
+468,39,Akash Trivedi,Hyderabad,22,Male,9,Sports Sandals,Footwear,599,4,2024-03-15,Delivered,2396,3,March,1,2024,Yes
+469,22,Sneha Mishra,Delhi,21,Male,14,Yoga Mat,Sports,599,3,2024-08-03,Delivered,1797,8,August,3,2024,Yes
+470,62,Ananya Patel,Pune,50,Female,3,Laptop Stand,Electronics,699,3,2024-05-08,Delivered,2097,5,May,2,2024,Yes
+471,93,Ishita Kumar,Hyderabad,47,Female,16,Water Bottle 1L,Sports,299,2,2024-08-22,Delivered,598,8,August,3,2024,Yes
+472,18,Lakshmi Chawla,Pune,54,Female,10,Cotton T-Shirt,Clothing,399,1,2024-07-21,Delivered,399,7,July,3,2024,Yes
+473,80,Shreya Gupta,Pune,47,Female,13,Winter Jacket,Clothing,1999,3,2024-08-13,Delivered,5997,8,August,3,2024,Yes
+474,56,Gaurav Chawla,Delhi,33,Female,20,Notebook Set,Stationery,149,2,2024-06-02,Delivered,298,6,June,2,2024,Yes
+475,78,Gaurav Singh,Hyderabad,44,Male,7,Casual Sneakers,Footwear,999,4,2024-06-09,Delivered,3996,6,June,2,2024,Yes
+476,51,Aarav Khanna,Chennai,47,Female,11,Denim Jeans,Clothing,899,3,2024-12-21,Cancelled,2697,12,December,4,2024,No
+477,74,Rohit Das,Mumbai,37,Female,8,Formal Shoes,Footwear,1299,3,2024-07-11,Delivered,3897,7,July,3,2024,Yes
+478,51,Aarav Khanna,Chennai,47,Female,12,Ethnic Kurta,Clothing,699,1,2024-10-15,Delivered,699,10,October,4,2024,Yes
+479,76,Arjun Kapoor,Kolkata,27,Male,18,Sunscreen SPF50,Beauty,299,2,2024-12-15,Pending,598,12,December,4,2024,No
+480,4,Ishita Gupta,Mumbai,53,Male,15,Resistance Bands Set,Sports,349,2,2024-08-12,Delivered,698,8,August,3,2024,Yes
+481,89,Aryan Singh,Chennai,50,Female,3,Laptop Stand,Electronics,699,4,2024-12-10,Cancelled,2796,12,December,4,2024,No
+482,18,Lakshmi Chawla,Pune,54,Female,10,Cotton T-Shirt,Clothing,399,2,2024-05-09,Delivered,798,5,May,2,2024,Yes
+483,92,Raj Patel,Mumbai,37,Female,14,Yoga Mat,Sports,599,4,2024-02-07,Cancelled,2396,2,February,1,2024,No
+484,77,Divya Srivastava,Bangalore,44,Male,16,Water Bottle 1L,Sports,299,4,2024-09-30,Pending,1196,9,September,3,2024,No
+485,89,Aryan Singh,Chennai,50,Female,14,Yoga Mat,Sports,599,1,2024-07-03,Pending,599,7,July,3,2024,No
+486,77,Divya Srivastava,Bangalore,44,Male,3,Laptop Stand,Electronics,699,1,2024-05-07,Delivered,699,5,May,2,2024,Yes
+487,22,Sneha Mishra,Delhi,21,Male,20,Notebook Set,Stationery,149,1,2024-10-15,Returned,149,10,October,4,2024,No
+488,97,Ishaan Das,Mumbai,20,Male,11,Denim Jeans,Clothing,899,4,2024-02-24,Delivered,3596,2,February,1,2024,Yes
+489,13,Sanjay Reddy,Hyderabad,28,Female,9,Sports Sandals,Footwear,599,2,2024-09-18,Pending,1198,9,September,3,2024,No
+490,72,Suresh Agarwal,Delhi,22,Male,19,Shampoo 400ml,Beauty,199,2,2024-08-16,Delivered,398,8,August,3,2024,Yes
+491,51,Aarav Khanna,Chennai,47,Female,15,Resistance Bands Set,Sports,349,2,2024-06-25,Delivered,698,6,June,2,2024,Yes
+492,62,Ananya Patel,Pune,50,Female,4,Mechanical Keyboard,Electronics,2499,3,2024-07-31,Delivered,7497,7,July,3,2024,Yes
+493,15,Sunita Singh,Pune,28,Female,5,Webcam HD,Electronics,1899,3,2024-06-08,Delivered,5697,6,June,2,2024,Yes
+494,59,Kunal Gandhi,Hyderabad,33,Female,7,Casual Sneakers,Footwear,999,4,2024-06-27,Cancelled,3996,6,June,2,2024,No
+495,13,Sanjay Reddy,Hyderabad,28,Female,15,Resistance Bands Set,Sports,349,4,2024-06-12,Delivered,1396,6,June,2,2024,Yes
+496,39,Akash Trivedi,Hyderabad,22,Male,2,USB-C Hub,Electronics,899,1,2024-01-12,Delivered,899,1,January,1,2024,Yes
+497,83,Lakshmi Kapoor,Kolkata,52,Female,4,Mechanical Keyboard,Electronics,2499,2,2024-05-04,Pending,4998,5,May,2,2024,No
+498,23,Deepika Reddy,Bangalore,45,Male,18,Sunscreen SPF50,Beauty,299,2,2024-06-18,Pending,598,6,June,2,2024,No
+499,55,Sonam Desai,Mumbai,50,Male,15,Resistance Bands Set,Sports,349,2,2024-07-26,Delivered,698,7,July,3,2024,Yes
+500,24,Rahul Khanna,Jaipur,51,Female,14,Yoga Mat,Sports,599,4,2024-01-15,Delivered,2396,1,January,1,2024,Yes
