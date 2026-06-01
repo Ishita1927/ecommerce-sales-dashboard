@@ -31,7 +31,8 @@ This project analyzes e-commerce sales data using **Python**, **SQL**, and **Pow
 - Top products by sales (table)
 
 ## 📸 Dashboard Preview
-![Dashboard Screenshot](Screenshot%20(246).png) This contains the view of my work
+![Dashboard Screenshot](Screenshot%20(246).png) 
+This contains the view of my work
 
 
 ## 🚀 How to Run
